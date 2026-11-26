@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Avtalsbevakaren demo//SV
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:norrby-livs-paminnelse@avtalsbevakaren.demo
+DTSTAMP:20261126T090000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:Påminnelse: 3 mån till senaste uppsägningsdag – Norrby Handeln 3
+DESCRIPTION:Exempel – påhittat avtal. Norrby Livs AB. Senaste uppsägningsdag 2027-12-31 (§ 4\, 12 mån). Annars förlängning 5 år.
+END:VEVENT
+BEGIN:VEVENT
+UID:norrby-livs-uppsagning@avtalsbevakaren.demo
+DTSTAMP:20261126T090000Z
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+SUMMARY:Senaste uppsägningsdag – Norrby Handeln 3 (Norrby Livs AB)
+DESCRIPTION:Exempel – påhittat avtal. Avtal till 2028-12-31. Uppsägning senast idag enligt § 4.
+END:VEVENT
+END:VCALENDAR
